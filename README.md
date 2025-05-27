@@ -37,4 +37,7 @@ A simple and responsive **To-Do List application** built using **HTML**, **CSS**
 ---
 
 ## 📁 Project Structure
+## 📷 Screenshot
+
+![To-Do App](screenshots/todo-app-screenshot.png)
 
