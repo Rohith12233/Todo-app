@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #9e97b2;
+  color: rgb(126, 30, 30);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.filters {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#emptyMsg {
+  text-align: center;
+  color: gray;
+}
+
+.delete-btn {
+  background: rgb(40, 35, 35);
+  padding: 5px 8px;
+}
+
+.delete-btn:hover {
+  background: rgb(187, 171, 171);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
